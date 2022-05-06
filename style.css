@@ -125,11 +125,6 @@ footer {
 }
 
 @media screen and ( max-width : 900px ) {
-  body {
-    font-size: 0.7rem;
-    padding: 10px;
-  }
-
   .header {
     width: 100%;
     align-items: center;
@@ -141,7 +136,9 @@ footer {
   }
 
   .trybewarts-family {
-    height: 25vh;
+    height: 45vh;
+    flex-direction: column;
+    gap: 1rem 0;
   }
 
   main {
