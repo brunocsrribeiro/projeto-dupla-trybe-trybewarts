@@ -22,10 +22,12 @@ body {
 }
 
 .trybewarts-header-logo {
-  max-width: 15vh;
+  max-width: 12vh;
 }
 
-.trybewarts-email , .trybewarts-password , .trybewarts-submit {
+.trybewarts-email ,
+.trybewarts-password ,
+.trybewarts-submit {
   border-radius: 4px;
   border: none;
   height: 30px;
@@ -54,7 +56,8 @@ body {
   width: 80%;
 }
 
-.input-name , .input-email {
+.input-name ,
+.input-email {
   margin-right: 0.5vh;
 }
 
@@ -76,16 +79,20 @@ body {
   width: 100%;
 }
 
-#label-infos , .learning-container label , .family-container div label {
+#label-infos , 
+.learning-container label ,
+.family-container div label {
   padding-left: 0.5rem;
   cursor: pointer;
 }
 
-.rating-container , .check-info {
+.rating-container ,
+.check-info {
   padding-left: 0;
 }
 
-.rating-container div label , .family-container div input {
+.rating-container div label ,
+.family-container div input {
   cursor: pointer;
 }
 
@@ -93,18 +100,31 @@ body {
   cursor: pointer;
 }
 
-.form-check .form-check-input {
+.form-check,
+.form-check-input {
   margin-left: 0.5em;
   cursor: pointer;
 }
 
 /* IMAGE STYLES */
 #trybewarts-forms-logo {
-  height: 500px;
+  height: 350px;
+}
+
+#counter {
+  position: relative;
+  bottom: 1.1rem;
+  right: .4rem;
+  opacity: .6;
+}
+
+#textarea {
+  resize: none;
 }
 
 /* BUTTON SUBMIT STYLES */
-.btn , .btn:disabled {
+.btn ,
+.btn:disabled {
   background-color: rgb(143, 2, 2);
   border-color: rgb(143, 2, 2);
   color: white;
@@ -131,7 +151,9 @@ footer {
     justify-content: space-around;
   }
 
-  .trybewarts-email , .trybewarts-password , .trybewarts-submit {
+  .trybewarts-email ,
+  .trybewarts-password ,
+  .trybewarts-submit {
     display: none;
   }
 
@@ -168,10 +190,11 @@ footer {
 
   .trybewarts-header-logo {
     max-width: 2.5rem;
+    display: none;
   }
 
   #trybewarts-forms-logo {
-    max-width: 40%;
+    max-width: 50%;
     height: auto;
     margin: 0 auto;
   }
