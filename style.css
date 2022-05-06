@@ -124,7 +124,7 @@ footer {
   font-size: 0.8rem;
 }
 
-@media screen and ( max-width : 900px ) {
+@media screen and ( max-width: 1024px ) {
   .header {
     width: 100%;
     align-items: center;
