@@ -148,16 +148,26 @@ footer {
 
   #evaluation-form label {
     font-size: 1rem;
+    /* line-height: 2rem; */
+  }
+
+  #container {
+    padding: 1rem;
+  }
+
+  #trybewarts-header-title {
+    color: white;
+    font-size: 1.4rem;
+  }
+
+  .trybewarts-header-logo {
+    max-width: 2.5rem;
   }
 
   #trybewarts-forms-logo {
-    max-width: 50%;
+    max-width: 40%;
     height: auto;
     margin: 0 auto;
-  }
-
-  .family-container {
-    line-height: 150%;
   }
 
   footer {
